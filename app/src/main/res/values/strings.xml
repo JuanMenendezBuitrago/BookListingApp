@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BookListingApp</string>
+    <string name="book_activity_label">Book Details</string>
+
+    <!-- error messages -->
+    <string name="no_connection">There\'s no Internet connection available</string>
+    <string name="no_results">No results found</string>
+    <string name="problem_retrieving_book_results">Problem retrieving the book JSON results.</string>
+    <string name="error_closing_input_stream">Error closing input stream</string>
+    <string name="error_with_creating_url">Error with creating URL</string>
+    <string name="problem_parsing_the_books_json_results">Problem parsing the earthquake JSON results</string>
+
+    <!-- as-is -->
+    <string name="empty_string" />
+    <string name="empty_query">Please, enter some text to search for</string>
+    <string name="search">Search</string>
+    <string name="error_response_code">Error response code:</string>
+    <string name="no_publisher">no publisher</string>
+    <string name="no_publisher_date">no published date</string>
+    <string name="no_self_link">no self link</string>
+    <string name="no_title">no title</string>
+    <string name="QueryUtils">QueryUtils</string>
+
+    <!-- Google Books API -->
+    <string name="google_api_url">https://www.googleapis.com/books/v1/volumes</string>
+    <string name="google_api_key">AIzaSyDDvu7tr5Q5-IGt-v0pcJK3LgcAfb0pOBw</string>
+
+    <!-- request -->
+    <string name="parameter_key">key</string>
+    <string name="parameter_maxResults">maxResults</string>
+    <string name="parameter_langRestrict">langRestrict</string>
+    <string name="parameter_q">q</string>
+    <string name="english_code">en</string>
+    <string name="value_maxResults">10</string>
+    <string name="request_method_get">GET</string>
+    <string name="charset_utf_8">UTF-8</string>
+
+    <!-- API response -->
+    <string name="api_json_volume_info">volumeInfo</string>
+    <string name="api_json_authors">authors</string>
+    <string name="api_json_preview_link">previewLink</string>
+    <string name="api_json_title">title</string>
+    <string name="api_json_items">items</string>
+    <string name="and">and</string>
+    <string name="unknown">Unknown</string>
+</resources>
